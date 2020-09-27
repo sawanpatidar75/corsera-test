@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> create a link</title>
+</head>
+<body style="background-color:skyblue;">
+	<h1 id="top" style="background-color:gray;font-size:300%;color:orange;">same linking</h1>
+	<section style="color:#bf00ff">
+		we can link a file in same directry;
+		<a href="same-directory.html" style="color:red;" title="same dir link">direct link</a>
+		<a href="https://translate.google.co.in/#view=home&op=translate&sl=en&tl=hi&text=embed" style="color:red;" target="_blank" title="same dir link">
+			<div>div link the file in same directory </div>
+		</a>
+	</section>
+	<section style="color:#80ff00;">
+		<ul>
+			<li><a style="color:Brown;" href="#section 1">section 1</a></li>
+			<li><a style="color:Brown;" href="#section 2">section 2</a></li>
+			<li><a style="color:Brown;" href="#section 3">section 3</a></li>
+			<li><a style="color:Brown;" href="#section 4">section 4</a></li>
+		</ul>
+	</section>
+	<section id="section 1">
+		<h1 style="color:GoldenRod;text-align: center;">section1</h1>
+		<p style="color:HotPink; font-size:100%;font-family: verdana;width:1000px;height: 250px;">&quot;take a look at different types of links and how you could create them in your HTML page. So the first type of links that we're going to take a look at are internal links. Here I am looking at the file called links-internal.html, and it's located in the examples/Lecture09 folder. And here we have a couple of links we're going to take a look at. Now the way you create links is by specifying an a element with an attribute href. And href stands for hypertext reference. The value of href can either be a relative or an absolute URL. In our case here, since we're discussing internal links which are links that point to internal web pages of the where application, the links we're showing are all relative URL links. However we could still have an even absolute URL links as long as they point, again, to the same web application that we're in.&quot; </p>
+		<hr style="width: 100;height:200;">
+		
+	</section>
+	<section id="section 2">
+		<h1 style="color:GoldenRod">section 2</h1>
+		<p> Since we're providing no directory information, the browser will assume that same-directory.html is a file that lives in the same directory as links-internal.html. It's also a very good idea to always specify a title attribute for the a tag. The title attribute is used by the screen readers that help the visually impaired people get through the web page. The content in between the opening and closing a tags is the content you're going to see in the web page,</p>
+	</section>
+	<section id="section 3">
+		<h1 style="color:GoldenRod">section 3</h1>
+		<p> when it is served and on which you're going to be able to click to go to the href that the a tag is configured with. Note the second example of our a tag. In this example, we're surrounding a div tag with our anchor tag. In other words, this div tag is going to be the content over our link on which were going to be able to click. Let's go ahead and see what this look like in the browser?
+			<h1 style="font-size:300%;">Heading Font size in 300%</h1>
+<p style="font-size:300%;">Paragraph Font size in 300%.</p>
+<p style="font-size:60px;" title="paragraph">Paragraph Font size 60px with title.</p> 
+<p style="font-family:italic;">Font family italic. </p>
+
+<h1 style="text-align:center;">Text Alignment Centered Heading</h1>
+<p style="text-align:right;font-size:300%;">Text Alignment right side paragraph.</p><hr>
+<b>This text is bold with line break</b><hr>
+
+<strong>This text is important! strong element with line break</strong><hr>
+
+<p><b>This text is bold paragraph</b></p>
+<p><strong>This text is importent strong paragraph.</strong></p>
+<p><i>This text is italic</i></p>
+<p>This is<sub> subscript</sub> and <sup>superscript</sup> paragraph</p>
+
+<p><i>This text is italic.</i>paragraph.</p>
+
+<p><em>This text is emphasized.</em>paragraph.</p>
+
+<p><small>This is some smaller text.</small>paragraph.</p>
+
+<p>This text <mark>marked</mark> in document paragraph. </p>
+
+<p>this text is <del>delete</del> or <ins>insert</ins> element in a document.</p>
+
+		</p>
+	</section>
+	<div>
+		<h1 style="color:GoldenRod"><a name="section 4">section 4</a></h1>
+		<p>
+			<a href="#top">back to top</a>
+		</p>
+	</div>
+
+</body>
+</html>
