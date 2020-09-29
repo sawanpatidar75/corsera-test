@@ -5,12 +5,13 @@
 		h1 {
 			margin:15px;
 			color: red;
+			text-align: center;
 		}
 		p{
 			border:3px solid black;
 			background-color:#af4d2a;
 			width:100%;
-			height:150px;
+			height:200px;
 			margin-left:auto;
 			margin-right:auto;
 			color:white;
@@ -44,7 +45,7 @@
 				width:41.66%;
 			}
 			.col-lg-6{
-				width:50%;
+				width:48%;
 			}
 			.col-lg-7{
 				width:58.33%;
@@ -66,8 +67,9 @@
 			}
 
 	}
-	@media (min-width: 993px)and(max-width:1215px){
-			.col-md-1, .col-md-2, .col-md-3,.col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12{
+	@media (min-width: 993px)and/or(max-width:1215px){
+			.col-md-1, .col-md-2, .col-md-3,.col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12
+			{
 				float: left;
 				border: 3px solid red;
 				background-color:powderblue;
@@ -89,7 +91,7 @@
 				width:41%;
 			}
 			.col-md-6{
-				width:50%;
+				width:48%;
 			}
 			.col-md-7{
 				width:58%;
@@ -133,7 +135,7 @@
 				width:41%;
 			}
 			.col-sm-6{
-				width:50%;
+				width:48%;
 			}
 			.col-sm-7{
 				width:58%;
@@ -154,7 +156,7 @@
 				width:100%;
 			}
 		}
- .row > h2{
+  h2{
 
 	background-color: pink;
 	color:blue;
